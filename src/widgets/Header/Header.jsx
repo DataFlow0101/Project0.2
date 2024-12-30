@@ -20,11 +20,8 @@ export function Header() {
                     <ul className="ul">
                         <li><a href="">Биз жонундо</a></li>
                         <li className="active"><a href="">Иш чара</a></li>
-                        <li><a href="">Сбор</a></li>
                         <li><a href="">Галерея</a></li>
-                        <li><a href="">Тур</a>
-                        </li>
-                        <li><a href="">Контакты</a></li>
+                        <li><a href="">Байланыш</a></li>
                     </ul>
                 </nav>
               
