@@ -39,7 +39,7 @@ const AnimatedNumber = ({ targetNumber, inView }) => {
         } else {
           clearInterval(interval);
         }
-      }, 100); // Скорость анимации
+      }, 80); // Скорость анимации
       return () => clearInterval(interval);
     }
   }, [inView, targetNumber]);
