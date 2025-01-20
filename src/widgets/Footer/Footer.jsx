@@ -8,6 +8,8 @@ export function Footer() {
   const controls = useAnimation();
   const [ref, inView] = useInView({ triggerOnce: true, threshold: 0.1 });
 
+
+    
   useEffect(() => {
     if (inView) {
       controls.start("visible");
@@ -32,7 +34,7 @@ export function Footer() {
 
     <motion.footer
       ref={ref}
-      className="bg-green-50 text-green-900 py-10 w-full"
+      className="bg-green-50 text-green-900 py-10 w-full relative"
       initial="hidden"
       animate={controls}
       variants={containerVariants}
@@ -41,16 +43,16 @@ export function Footer() {
         {/* Лого */}
       <Container>
         <motion.div
-          className="flex m-auto mb-6 w-[467px]"
+          className="flex m-auto mb-6 w-[397px]"
           variants={itemVariants}
         >
-          <img src={Logo} alt="bAgyt logo" className="w-40 h-auto" />
+          <img src={Logo} alt="bAgyt logo" className="w-40 h-auto ml-[124px]" />
         </motion.div>
 
         <div className="flex flex-wrap gap-[]">
           {/* 1 */}
           <motion.div
-            className="flex-1 min-w-[250px] mb-6"
+            className="flex-1 min-w-[250px] mb-6 ml-[100px]"
             variants={itemVariants}
           >
             <h3 className="text-green-900 font-bold text-lg mb-4">
@@ -65,7 +67,7 @@ export function Footer() {
 
           {/* 2 */}
           <motion.div
-            className="flex-1 min-w-[250px] mb-6  justify-center"
+            className="flex-1 min-w-[250px] mb-6 ml-[80px]"
             variants={itemVariants}
           >
             <h3 className="text-green-900 font-bold text-lg mb-4">
@@ -79,7 +81,7 @@ export function Footer() {
 
           {/* 3 */}
           <motion.div
-            className="flex-1 min-w-[250px] mb-6 ml-[-23px]"
+            className="flex-1 min-w-[250px] mb-6 ml-[-123px]"
             variants={itemVariants}
           >
             <h3 className="text-green-900 font-bold text-lg mb-4">
@@ -93,13 +95,15 @@ export function Footer() {
             </ul>
           </motion.div>
         </div>
+ 
 
         {/* Нижний футер */}
         <motion.div
-          className="ml-[330px] border-t border-green-200 pt-6 mt-6"
+          className="ml-[530px]  border-green-200 pt-6 mt-6 "
           variants={itemVariants}
         >
-          <p className="text-sm">
+          <div className="w-full absolute h-[1px] bg-green-200 mt-[-30px] ml-[-1017px]"></div>
+          <p className="text-sm ml-[-70px]">
             &copy; 2024. Кайрымдуулук уюму. Бардык укуктар корголгон.
           </p>
         </motion.div>

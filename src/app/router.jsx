@@ -8,10 +8,18 @@ export const MyRoutes = () => {
       path: "",
       element: <Layout />,
       children: [
+        
         {
+          path: "*",
+          element: <h1>404 Not Fount</h1>,
+
+          path: "",
+          element: <Home />,
+
 
             path: "/",
             element: <Home />,
+
         },
  
         
