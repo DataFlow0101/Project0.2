@@ -7,7 +7,7 @@ import FlagRussia from "./img/Flag_of_Russia.svg.png";
 import FlagKyrgyzstan from "./img/Flag_of_Kyrgyzstan.svg.png";
 export function Header() {
   return (
-    <div>
+    <div className="boss-div">
       <Container>
       <div className="container-fluid">
       <div className="ant"></div>
@@ -20,11 +20,8 @@ export function Header() {
                     <ul className="ul">
                         <li><a href="">Биз жонундо</a></li>
                         <li className="active"><a href="">Иш чара</a></li>
-                        <li><a href="">Сбор</a></li>
                         <li><a href="">Галерея</a></li>
-                        <li><a href="">Тур</a>
-                        </li>
-                        <li><a href="">Контакты</a></li>
+                        <li><a href="">Байланыш</a></li>
                     </ul>
                 </nav>
               
