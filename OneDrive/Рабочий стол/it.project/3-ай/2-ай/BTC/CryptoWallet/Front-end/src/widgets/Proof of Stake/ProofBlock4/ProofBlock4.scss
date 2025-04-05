@@ -1,0 +1,48 @@
+.info-divcontainer{
+     width: 100%;
+    //  background-color: black;
+
+    .info-container{
+        width: 1440px;
+        height: 100%;
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+        .button-group{
+            button{
+                border: none;
+                background-color: black;
+                text-align: center;
+                color: white;
+            }
+       
+        }
+        .info-text{
+            p{
+      font-family: Hauora;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 0%;
+      letter-spacing: 0%;
+      margin-bottom: 50px;
+      flex-wrap: wrap;
+            }
+        }
+        .info {
+           width: 665px;
+           background-color: #00000082;
+           height: 522px;
+            // display: none;
+            border-radius: 8px;
+            color: white;
+        }
+        
+        .info.active {
+            display: block;
+        }
+        
+        .info.hidden {
+            display: none; 
+        }
+    }
+}

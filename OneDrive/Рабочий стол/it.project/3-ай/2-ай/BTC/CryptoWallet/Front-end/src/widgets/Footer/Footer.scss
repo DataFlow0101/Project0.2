@@ -1,0 +1,132 @@
+.nuti{
+    width: 100%;
+    background-color:#0D111B;
+}
+.footer{
+width: 1440px;
+height: 416px;
+margin: 0 auto;
+display: flex;
+gap: 40px;
+}
+.fnom1 h1{
+    color: white;
+}
+
+.hnicon1{
+    display: flex ;
+    gap: 5px;
+}
+.fnom1 h2{
+    color: white;
+}
+
+.input-container {
+    background-color: #FFFFFF1A;
+    width: 369px;
+    height: 44px;
+    border-radius: 8px;
+   border: none;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+    // backdrop-filter: blur(5px); // Размытие фона
+border: 0.1px solid rgba(255, 255, 255, 0.132);
+}
+
+input {
+    width: 369px;
+    height: 44px;
+    border-radius: 8px;
+    background: transparent;
+    border: none;
+    outline: none;
+    padding: 10px;
+    color: white;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+    &::placeholder {
+        color: rgba(255, 255, 255, 0.6);
+    }
+}
+
+button {
+    background: #2AD167;
+    border: none;
+    color: white;
+    width: 122px;
+    height: 32px;
+    border-radius: 66px;
+    cursor: pointer;
+    transition: 0.3s;
+    margin-right: 10px ;
+    &:hover {
+        background: #1D9A6D;
+
+    }
+}
+.fnom1 p{
+    width: 375px;
+    height: 57px;
+    color:#ADADAD;
+    font-family: Hauora;
+    font-weight: 400;
+    letter-spacing: 0%;
+    
+
+
+}
+.fnom1 {
+    padding: 40px 164px;
+}
+
+.fnom2{
+    width: 170px;
+    height: 236px;
+    margin-top:40px ;
+
+}
+.fnom2 h2{
+    color:  white;
+}
+.fnom2 p{
+    color:  #ADADAD;
+    
+}
+
+.fnom3{
+    width: 170px;
+    height: 236px;
+    margin-top:40px ;
+
+}
+.fnom3 h2{
+    color:  white;
+}
+.fnom3 p{
+    color:  #ADADAD;
+    
+}
+.fnom4{
+    width: 170px;
+    height: 236px;
+    margin-top:40px ;
+
+}
+.fnom4 h2{
+    color:  white;
+}
+.fnom4 p{
+    color:  #ADADAD;
+    
+}
+.line{
+    
+}
+
+.line p{
+    color: white;
+}

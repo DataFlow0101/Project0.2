@@ -1,0 +1,68 @@
+.div{
+   width: 100%;
+    background-image: url('/public/img/Rectangle\ \(1\).png');
+    background-repeat: no-repeat;
+  background-size: 100% auto;
+}
+.mainBlock3-container{
+    width: 1440px;
+    height: 611px;
+    margin: auto;
+    margin-top: -20px;
+    .container-content{
+        display: flex;
+        align-items: center;
+        margin-left: 165px;
+        padding-top: 50px;
+        .content{
+            width: 420px;
+            h2{
+                background: linear-gradient(137.68deg, rgb(255, 255, 255),rgba(176, 250, 255, 0));
+-webkit-background-clip:
+text;
+-webkit-text-fill-color:
+transparent;
+background-clip:
+text;
+font-family: Inter;
+font-size: 42px;
+font-weight: 700;
+line-height: 43px;
+letter-spacing: 0%;
+text-align: left;
+            }
+            p{
+color: rgb(255, 255, 255);
+font-family: Hauora;
+font-size: 18px;
+font-weight: 600;
+line-height: 32px;
+letter-spacing: 0%;
+text-align: left;
+            }
+            .div-btn{
+                gap: -30px;
+              display: flex;
+                .btn{
+                    width: 30px;
+                    border: none;
+                    background: transparent;
+                }
+            }
+        }
+        .img2{
+            position: absolute;
+            margin-top: -520px;
+            margin-left: -600px;
+        }
+        .import-button{
+            width: 226px;
+            height: 52px;
+            background-color: #627FE326;
+            border: none;
+            border-radius: 12px;
+            margin-top: 10px;
+            color: #8886FF;
+        }
+    }
+}

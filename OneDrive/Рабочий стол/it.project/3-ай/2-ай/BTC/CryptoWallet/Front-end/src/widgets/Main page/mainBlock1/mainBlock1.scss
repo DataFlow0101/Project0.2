@@ -1,0 +1,52 @@
+.bagraunt-img{
+    width: 100%;
+    background-image: url("/img/Rectangle.png");
+    background-repeat: no-repeat;
+   background-size: 100% auto;
+
+}
+.Block1-container{
+    width: 1440px;
+    height: 1240px;
+    margin: auto;
+    .div-content{
+        display: flex;
+        .content{
+            margin-top: 207px;
+            margin-left: 165px;
+            h1{
+                width: 669px;
+background: linear-gradient(137.68deg, rgb(255, 255, 255),rgba(176, 250, 255, 0));
+-webkit-background-clip:
+text;
+-webkit-text-fill-color:
+transparent;
+background-clip:
+text;
+font-family: Inter;
+font-size: 56px;
+font-weight: 800;
+line-height: 61px;
+letter-spacing: 0%;
+text-align: left;
+            }
+            p{
+color: rgb(255, 255, 255);
+font-family: Hauora;
+font-size: 18px;
+font-weight: 600;
+line-height: 32px;
+letter-spacing: 0%;
+text-align: left;
+            }
+        }
+    }
+    .btc{
+    position: absolute;
+    padding-top: 130px;
+    margin-left: -100px;
+    }
+    .full{
+        margin-left: -105px;
+    }
+}
