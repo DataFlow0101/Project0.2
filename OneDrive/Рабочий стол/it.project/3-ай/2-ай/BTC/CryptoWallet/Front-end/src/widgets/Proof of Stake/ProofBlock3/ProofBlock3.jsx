@@ -21,6 +21,10 @@ const ProofBlock3 = () => {
              </div>
         </div>
         <div className='card3-block'> 
+
+
+
+
             <h4>Требования  <br />
             к стекингу</h4>
             <div>
@@ -34,6 +38,7 @@ const ProofBlock3 = () => {
              <div>
             <p>Как запустить стекинг</p>
             <a href="">Перейти <BsArrowRightSquare className='icon'/></a>
+
              </div>
         </div>
         </div>
